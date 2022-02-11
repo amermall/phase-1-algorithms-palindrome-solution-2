@@ -52,6 +52,22 @@ outputs, but compared to our last description of "reversing the word", the way
 we understand the problem is significantly different, and will impact our
 approach when it's time to write the code.
 
+```
+- make a function that returns true if a word is a palindrome. That means if the first letter is the same as last letter, and the second letter is the same as the second to last lette, etc. until we reach the middle, return true.
+
+- we can think about comparing the letters with a test case
+e.g:
+abba
+^  ^
+ ^^
+ true
+
+robot
+^   ^
+  false
+
+```
+
 ### 2. Write Your Own Test Cases
 
 We can reuse the same test cases we came up with for the previous solution:
